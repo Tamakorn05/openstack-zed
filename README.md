@@ -15,7 +15,14 @@
     enp0s8|Unconfigured         enp0s8|Unconfigured         enp0s8|Unconfigured
 
 ```
+
 Create three Virtual Machines in Oracle VM Virtual Box as given in the diagrame above and set networking.
+
+Set hostname to every node (controller,compute,storage) with command hostnamectl set-hostname
+Example run command on controller
+```
+sudo hostnamectl set-hostname controller
+```
 
 Login as user "stack" and generate ssh key pair every node
 ```
