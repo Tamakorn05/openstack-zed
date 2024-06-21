@@ -16,29 +16,40 @@
 
 ```
 Create three Virtual Machines in Oracle VM Virtual Box as given in the diagrame above and set networking.
-Login as user "stack" and generate ssh key pair
+
+Login as user "stack" and generate ssh key pair every node
 ```
-ssh-keygen -P ""
-ssh-copy-id controller
-ssh-copy-id compute
-ssh-copy-id storage
+ssh-keygen -t rsa
 ```
+
+add /etc/hosts every node
 ```
 /etc/hosts
 10.34.102.151	controller
 10.34.102.152	compute
 10.34.102.153	storage
 ```
+
+copy key to server
 ```
-git clone https://github.com/Sangwan70/openstack-zed.git
+ssh-copy-id controller
+ssh-copy-id compute
+ssh-copy-id storage
 ```
+
+```
+git clone https://github.com/itbcodedev/openstack-zed.git
+```
+
 ```
 cd scripts
 stack@controller:~/scripts$ ./pre-download.sh
 ```
+
 ```
 cd ubuntu
 ```
+
 Execute the scriptes in the given order:
 ```
 cd ubuntu
