@@ -72,7 +72,7 @@ openstack endpoint create \
 openstack endpoint create \
     --region "$REGION" \
     image admin http://controller:9292
-
+# controller = 10.34.102.151
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # Configure components
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
