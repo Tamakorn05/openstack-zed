@@ -22,7 +22,8 @@ source "$LIB_DIR/functions.guest.sh"
 #-------------------------------------------------------------------------------
 
 
-DB_IP=$(get_node_ip_in_network "$(hostname)" "mgmt")
+#DB_IP=$(get_node_ip_in_network "$(hostname)" "mgmt")
+export DB_IP=10.34.102.151
 echo "Will bind MySQL server to $DB_IP."
 
 #------------------------------------------------------------------------------
