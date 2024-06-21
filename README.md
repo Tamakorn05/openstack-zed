@@ -44,11 +44,11 @@ ssh-copy-id storage
 ```
 
 ```
-git clone https://github.com/itbcodedev/openstack-zed.git
+git clone https://github.com/itbcodedev/openstack-zed.git scripts
 ```
 
 ```
-cd openstack-zed
+cd scripts
 stack@controller:~/scripts$ ./pre-download.sh
 ```
 
