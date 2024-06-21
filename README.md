@@ -2,7 +2,7 @@
 ```
 ------------+--------------------------+--------------------------+------------
             |                          |                          |
-      enp0s3|10.10.0.11          enp0s3|10.10.0.31          enp0s3|10.10.0.41
+      enp0s3|10.34.102.151          enp0s3|10.34.102.152         enp0s3|10.34.102.153
 +-----------+-----------+  +-----------+-----------+  +-----------+-----------+
 |     [ controller ]    |  |       [ compute ]     |  |       [ storage ]     |
 |     (Control Node)    |  |      Nova-Compute     |  |      Swift-Container  |
@@ -25,9 +25,9 @@ ssh-copy-id storage
 ```
 ```
 /etc/hosts
-10.10.0.11	controller
-10.10.0.31	compute
-10.10.0.41	storage
+10.34.102.151	controller
+10.34.102.152	compute
+10.34.102.153	storage
 ```
 ```
 git clone https://github.com/Sangwan70/openstack-zed.git
