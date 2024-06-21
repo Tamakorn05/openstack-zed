@@ -22,15 +22,14 @@ Login as user "stack" and generate ssh key pair every node
 ssh-keygen -t rsa
 ```
 
-add /etc/hosts every node
+add ip and hostname /etc/hosts every node
 ```
-/etc/hosts
 10.34.102.151	controller
 10.34.102.152	compute
 10.34.102.153	storage
 ```
 
-copy key to server
+copy key from controller to servers
 ```
 ssh-copy-id controller
 ssh-copy-id compute
