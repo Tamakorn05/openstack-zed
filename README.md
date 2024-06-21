@@ -48,7 +48,7 @@ git clone https://github.com/itbcodedev/openstack-zed.git
 ```
 
 ```
-cd scripts
+cd openstack-zed
 stack@controller:~/scripts$ ./pre-download.sh
 ```
 
