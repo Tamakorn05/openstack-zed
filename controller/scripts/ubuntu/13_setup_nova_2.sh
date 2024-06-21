@@ -2,16 +2,16 @@
 
 set -o errexit -o nounset
 
-TOP_DIR=$(cd $(cat "../TOP_DIR" 2>/dev/null||echo $(dirname "$0"))/.. && pwd)
+# TOP_DIR=$(cd $(cat "../TOP_DIR" 2>/dev/null||echo $(dirname "$0"))/.. && pwd)
 
-source "$TOP_DIR/config/paths"
-source "$CONFIG_DIR/credentials"
-source "$CONFIG_DIR/openstack"
-source "$LIB_DIR/functions.guest.sh"
+# source "$TOP_DIR/config/paths"
+# source "$CONFIG_DIR/credentials"
+# source "$CONFIG_DIR/openstack"
+# source "$LIB_DIR/functions.guest.sh"
 
-exec_logfile
+# exec_logfile
 
-indicate_current_auto
+# indicate_current_auto
 
 #------------------------------------------------------------------------------
 # Install Compute controller services
