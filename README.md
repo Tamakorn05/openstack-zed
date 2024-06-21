@@ -47,14 +47,12 @@ ssh-copy-id storage
 git clone https://github.com/itbcodedev/openstack-zed.git scripts
 ```
 
+List files
 ```
-cd scripts
-stack@controller:~/scripts$ ./pre-download.sh
+cd scripts/
+ls
 ```
 
-```
-cd ubuntu
-```
 
 Execute the scriptes in the given order:
 ```
