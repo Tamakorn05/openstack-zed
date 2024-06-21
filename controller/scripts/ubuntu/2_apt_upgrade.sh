@@ -15,9 +15,9 @@ source "$CONFIG_DIR/openstack"
 export LIB_DIR=/home/l200/openstack-zed/controller/lib
 source "$LIB_DIR/functions.guest.sh"
 
-indicate_current_auto
+# indicate_current_auto
 
-exec_logfile
+# exec_logfile
 
 #------------------------------------------------------------------------------
 # Upgrade installed packages and the kernel
